@@ -1,0 +1,10 @@
+How to start SQl
+
+1.With Services.msc 
+2. Using Command Prompt as Administrator
+    Open Command Prompt as Administrator
+    TYPE 
+      -net start MySQL80
+    If successful prompt display this:
+      -The MySQL80 service was started successfully.
+3. Using MySQL Workbench:
