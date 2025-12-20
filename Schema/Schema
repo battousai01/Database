@@ -8,3 +8,12 @@ Types of Database Schemas
   Conceptual Database Schema
     ใช้อธิบายโครงสร้างทั้งหมดของ database โดยมุ่งเน้นไปที่ความหมายของข้อมูลและความสุมพันธ์ระหว่าง entities ที่ต่างกันว่ามีความสัมพันธ์กันอย่างไร โดยไม่สนใจว่าข้อมูลจะมีการจัดเก็บ
     ทางกายภาพอย่างไร
+    Key Points
+      แสดง database ทั้งหมดสำหรับการจัดการทั้งองค์กร
+      อธิบาย entities, attributes และ relationships
+      มีความอิสระทางเทคโนโลยีในการทำงาน
+      มักออกแบบโดยใช้ ER diagram
+      เป็นตัวเชื่อมระหว่างความต้องการของผู้ใช้งานกับ logical schema
+      Example:
+      A conceptual schema for a school system includes entities such as:
+      Students, Courses, Teachers, Departments, and shows how they are related.
