@@ -63,3 +63,6 @@ database ได้ยาก
     ใช้สำหรับเก็บและวิเคราะห์ข้อมูลขนาดใหญ่ โดยมี fact table อยู่ตรงกลางและมี multiple dimention table อยู่รอบๆ
     โดย multiple dimention table เหล่านี้จะเชื่อมต่อกับ fact table โดย fact table จะเก็บข้อมูลที่เป็นตัวเลขที่ใช้ในการทำงาน 
     ขณะที่ multiple dimension table เก็บข้อมูลที่เกี่ยวกับ dimension (รายละเอียดของ fact table) เช่น product 
+  Snowflake Schema
+    คล้ายกับ Star Schema คือมี fact table อยู่ตรงกลางและมี dimension table อยู่รอบๆ โดยที่ dimension table
+    เชื่อมต่อกับ fact table แต่ที่ต่างกันคือ dimension table จะเชื่อมต่อกับ table อื่นๆด้วย
