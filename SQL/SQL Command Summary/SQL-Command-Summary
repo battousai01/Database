@@ -18,4 +18,19 @@ select all data in tutorial.billboard_top_100_year_end dataset when these 3 cond
    have year  = 2012
    year_rank <=10
    "group_name" ILIKE '%feat%'
- are  true
+      "group_name" 
+          is a column name. The double quotes mean the column name is case-sensitive and this is common in PostgreSQL. 
+       ILIKE 
+          Means case-insensitive LIKE  Matches text without caring about uppercase or lowercase
+            Example matches:
+              Feat
+              FEATfeature
+              myFeatGroup
+      '%feat%' 
+         %= wildcard (matches any characters)
+         'feat' = text to search for
+      So:
+        %feat% means:
+          find text that contains “feat” anywhere beginning, middle, or end
+ 
+  are  true
