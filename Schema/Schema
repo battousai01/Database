@@ -70,3 +70,6 @@ database ได้ยาก
     คือ snapshot ของ database ณ ช่วงเวลาใดเวลาหนึ่ง ที่เก็บ property ทั้งหมดที่ถูกอธิบายด้วย Schema ของ database ในรูปของค่าต่างๆ
     โดย Database Schema จะมีการเปลี่ยนแปลงไปเรื่อยๆตามการทำงาน Database Instance จะไม่เก็บข้อมูลที่เกี่ยวข้องกับข้อมูล
     ที่อยู่ใน database
+
+
+Source   Database Schemas - GeeksforGeeks
