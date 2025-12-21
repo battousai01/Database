@@ -18,4 +18,8 @@ Types of Database Schemas
       A conceptual schema for a school system includes entities such as:
       Students, Courses, Teachers, Departments, and shows how they are related.
   Physical Database Schema
-    ใข้กำหนดวิธีการเก็บข้อมูลว่าจะใช้วิธีการใด เช่น กำหนดfiles ,partition,access path
+    ใข้กำหนดวิธีการเก็บข้อมูลว่าจะใช้วิธีการใด เช่น กำหนดfiles ,partition,access path มุ่งเน้นไปที่ประสิทธิภาพการทำงานของข้อมูล 
+    เช่น ประสิทธิภาพการรับข้อมูล
+      กำหนดลักษณะทางกายภาพของตารางและดัชนีของข้อมูล
+      การทำงานขึ้นกับเทคโนโลยีที่ใช้ทำงาน เช่น หากทำงานโดยใช้ sql ก็ต้องใช้เทคโนโลยี sql
+  Logical Database Schema
