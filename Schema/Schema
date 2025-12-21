@@ -47,3 +47,7 @@ database ได้ยาก
   Flat Model
     มีลักษณะเป็น 2-D array ที่ทุก column มีชนิดข้อมูลเดียวกัน และ row แต่ละตัวจะเกี่ยวข้องกัน มีลักษณะเหมือน table 
     หรือ spreadsheet เหมาะกับข้อมูลขนาดเล็กหรือมีความซับซ้อนน้อย
+  Hierarchical Model
+    ข้อมูลจะถูกจัดเียงโดยใช้ความสัมพันธ์แบบ parent-child และ tree-like structure 
+    โดยแต่ละ record จะประกอบไปด้วย parent 1 ตัว กับ child หลายตัว ซึ่งก็คือความสัมพันธ์แบบ one-to-many
+    เหมาะกับโครงสร้างข้อมูลแบบ nested data
