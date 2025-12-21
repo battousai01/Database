@@ -57,3 +57,9 @@ database ได้ยาก
     แต่มีความต่างกันคือ Hierarchical Model จะใช้การทำงานแบบ parent-child ที่เข้มงวด (one-to-many)ขณะที่ Network model
     ไม่จำเป็นต้องมีความสัมพันธ์แบบ one-to-many เท่านั้น สามารถมีความสัมพันธ์แบบ many-to-manyได้
      ซึ่งก็คือ node และ child สามารถมี parent node หลายตัวได้
+  Rational Model
+    คือ Schema หลักที่ใช้ใน relation database โดยข้อมูลจะถูกเก็บไว้ในรูปแบบความสัมพันธ์ของตาราง
+  Star Schema
+    ใช้สำหรับเก็บและวิเคราะห์ข้อมูลขนาดใหญ่ โดยมี fact table อยู่ตรงกลางและมี multiple dimention table อยู่รอบๆ
+    โดย multiple dimention table เหล่านี้จะเชื่อมต่อกับ fact table โดย fact table จะเก็บข้อมูลที่เป็นตัวเลขที่ใช้ในการทำงาน 
+    ขณะที่ multiple dimension table เก็บข้อมูลที่เกี่ยวกับ dimension (รายละเอียดของ fact table) เช่น product 
