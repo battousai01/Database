@@ -51,3 +51,9 @@ database ได้ยาก
     ข้อมูลจะถูกจัดเียงโดยใช้ความสัมพันธ์แบบ parent-child และ tree-like structure 
     โดยแต่ละ record จะประกอบไปด้วย parent 1 ตัว กับ child หลายตัว ซึ่งก็คือความสัมพันธ์แบบ one-to-many
     เหมาะกับโครงสร้างข้อมูลแบบ nested data
+  Network Model
+    มีลักษณะคล้ายกันกับ Hierarchical Model มีการใช้ node และ edge ในการแสดงข้อมูล
+    โดย node เปรียบได้กับ parent หรือ entities และ edge เปรียบได้กับ child หรือ relationships
+    แต่มีความต่างกันคือ Hierarchical Model จะใช้การทำงานแบบ parent-child ที่เข้มงวด (one-to-many)ขณะที่ Network model
+    ไม่จำเป็นต้องมีความสัมพันธ์แบบ one-to-many เท่านั้น สามารถมีความสัมพันธ์แบบ many-to-manyได้
+     ซึ่งก็คือ node และ child สามารถมี parent node หลายตัวได้
