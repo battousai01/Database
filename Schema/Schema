@@ -38,3 +38,9 @@ Types of Database Schemas
        เช่น การที่นักเรียนจะเห็นเฉพาะคะแนนของตนเองเท่านั้น ในขณะที่ admin จะเห็นคะแนนของทุกคน
      
       
+Creating Database Schema
+  การสร้าง Schema ใช้คำสั่ง CREATE SCHEMA
+
+Database Schema Designs
+  Schema สำหรับ database จะต้องทำให้มีประสิทธิภาพ หากออกแบบ Schema ไม่ดีจะทำให้เปลืองหน่วยความจำและจัดการ
+database ได้ยาก 
