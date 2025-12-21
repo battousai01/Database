@@ -7,3 +7,15 @@ select all data in tutorial.billboard_top_100_year_end dataset that have year  =
    have year  = 2012
    year_rank <=10
  are  true ]
+
+Chain operation
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE year = 2012
+   AND year_rank <= 10
+   AND "group_name" ILIKE '%feat%'
+select all data in tutorial.billboard_top_100_year_end dataset when these 3 condition 
+   have year  = 2012
+   year_rank <=10
+   "group_name" ILIKE '%feat%'
+ are  true
