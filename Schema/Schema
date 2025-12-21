@@ -17,3 +17,5 @@ Types of Database Schemas
       Example:
       A conceptual schema for a school system includes entities such as:
       Students, Courses, Teachers, Departments, and shows how they are related.
+  Physical Database Schema
+    ใข้กำหนดวิธีการเก็บข้อมูลว่าจะใช้วิธีการใด เช่น กำหนดfiles ,partition,access path
