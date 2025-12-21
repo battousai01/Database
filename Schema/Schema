@@ -44,3 +44,6 @@ Creating Database Schema
 Database Schema Designs
   Schema สำหรับ database จะต้องทำให้มีประสิทธิภาพ หากออกแบบ Schema ไม่ดีจะทำให้เปลืองหน่วยความจำและจัดการ
 database ได้ยาก 
+  Flat Model
+    มีลักษณะเป็น 2-D array ที่ทุก column มีชนิดข้อมูลเดียวกัน และ row แต่ละตัวจะเกี่ยวข้องกัน มีลักษณะเหมือน table 
+    หรือ spreadsheet เหมาะกับข้อมูลขนาดเล็กหรือมีความซับซ้อนน้อย
