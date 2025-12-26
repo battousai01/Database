@@ -58,6 +58,12 @@ Ex
   WHERE Title LIKE "%Toy Story%";
   select all movie that have title "Toy Story" in movies dataset
 
+  Matching one or more word that not the same in condition 
+  SELECT * 
+  FROM movies
+  WHERE Director NOT LIKE "%John Lasseter%";
+  select all movie that director not is John Lasseter
+
 Chain operation
 SELECT *
   FROM tutorial.billboard_top_100_year_end
