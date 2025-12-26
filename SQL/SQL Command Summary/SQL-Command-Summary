@@ -64,6 +64,27 @@ Ex
   WHERE Director NOT LIKE "%John Lasseter%";
   select all movie that director not is John Lasseter
 
+  Remove duplicate 
+
+  SYNTAX
+  SELECT DISTINCT column, another_column, …
+  FROM mytable
+  WHERE condition(s);
+  Ex
+  SELECT DISTINCT director 
+  FROM movies
+  select movie from movite dataset that director not duplicate
+
+  Sorting
+  SELECT column, another_column, …
+  FROM mytable
+  WHERE condition(s)
+  ORDER BY column ASC/DESC;
+  Ex
+  SELECT director FROM movies
+  ORDER BY director ASC;
+  select director from movie dataset and sorting result director in ascending
+  
 Chain operation
 SELECT *
   FROM tutorial.billboard_top_100_year_end
