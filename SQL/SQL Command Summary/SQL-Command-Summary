@@ -99,6 +99,19 @@ Ex
   LIMIT   4
   select last 4 movies that released and sorting it in most recent to least  
 
+  Offset
+  ELECT column, another_column, …
+  FROM mytable
+  WHERE condition(s)
+  ORDER BY column ASC/DESC
+  LIMIT num_limit OFFSET num_offset;
+  Ex
+  SELECT *
+  FROM movies
+  ORDER BY Title ASC
+  LIMIT 5 OFFSET   5;
+  select movie start from next five movie 
+
 Chain operation
 SELECT *
   FROM tutorial.billboard_top_100_year_end
