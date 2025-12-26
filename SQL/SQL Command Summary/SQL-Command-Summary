@@ -84,7 +84,21 @@ Ex
   SELECT director FROM movies
   ORDER BY director ASC;
   select director from movie dataset and sorting result director in ascending
-  
+
+  Limit result by condition
+  Ex
+  SELECT column, another_column, …
+  FROM mytable
+  WHERE condition(s)
+  ORDER BY column ASC/DESC
+  LIMIT num_limit OFFSET num_offset;
+  Ex
+  SELECT *
+  FROM movies
+  ORDER BY Year DESC
+  LIMIT   4
+  select last 4 movies that released and sorting it in most recent to least  
+
 Chain operation
 SELECT *
   FROM tutorial.billboard_top_100_year_end
